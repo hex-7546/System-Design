@@ -17,6 +17,8 @@ This repo contains core and fundamental concepts of system design which is the m
 <a href="#-lock">Locks</a>
 <br>
 <a href="#-web-sockets">Web Sockets</a>
+<br>
+<a href="">SQL v/s NoSQL</a>
 
 ## 🔹 CAP Theorem</h2>
 <img src="image.png">
@@ -166,3 +168,11 @@ This makes them ideal for real-time applications.
 
 <br>
 <img src="web.png">
+
+## 🔹 SQL v/s NoSQL
+SQL is a type of database that uses structured tables with rows and columns for managing and storing data, while NoSQL databases use flexible, non-relational formats such as documents, key-value pairs, graphs, or columns, to store data efficiently for different types of applications
+
+### SQL
+- SQL databases are known as Relational Database Management Systems (RDBMS). Data is organized in structured table formats with a fixed schema that defines how data is related and stored. They use SQL(Structured Query Language) for manipulating data. It is **ACID** compliant, reliable and support complex transcations.
+- Downside of SQL is when the database becomes larger and larger, it becomes difficult to maintain and manage them. Speed is compromised with time.
+
